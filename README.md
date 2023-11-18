@@ -1,2 +1,2 @@
 # Analisa-Data-Customer
-data data yang saya gunukan bersumber dari Dicoding.com
+data data yang saya gunakan bersumber dari Dicoding.com
