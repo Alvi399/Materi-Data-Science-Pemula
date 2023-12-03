@@ -92,7 +92,6 @@ col1,col2 = st.columns(2)
 with col1:
     total_orders =daily_orders_df.order_count.sum()
     st.metric(label="Total Orders",value=total_orders)
-
 with col2:
     total_revenue = format_currency(daily_orders_df.revenue.sum(),'USD',locale='es_CO')
     st.metric("Total Revenue",value=total_revenue)
